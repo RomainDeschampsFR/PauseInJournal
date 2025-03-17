@@ -9,21 +9,8 @@ namespace PauseInJournal
 	public class Main : MelonMod
 	{
 		public override void OnInitializeMelon()
-		{           
-			MelonLogger.Msg("Mod started!");
-        }
-
-		public override void OnSceneWasLoaded(int buildIndex, string sceneName)
 		{
-       
-
-
+            Debug.Log($"[{Info.Name}] Version {Info.Version} loaded!");
         }
-
-        public override void OnUpdate()
-		{
-
-		}
-
     }
 }
